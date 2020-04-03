@@ -13,9 +13,9 @@ namespace AstroGrep.Windows.Forms
         private AstroGrep.Windows.Controls.TextEditorEx txtHits;
         private System.Windows.Forms.Integration.ElementHost textElementHost;
         private System.Windows.Forms.Panel pnlSearch;
-        private System.Windows.Forms.ComboBox cboSearchForText;
-        private System.Windows.Forms.ComboBox cboFileName;
-        private System.Windows.Forms.ComboBox cboFilePath;
+        private AstroGrep.Windows.Controls.ComboboxEx cboSearchForText;
+        private AstroGrep.Windows.Controls.ComboboxEx cboFileName;
+        private AstroGrep.Windows.Controls.ComboboxEx cboFilePath;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Panel pnlSearchOptions;
@@ -142,9 +142,9 @@ namespace AstroGrep.Windows.Forms
             this.picBrowse = new AstroGrep.Windows.Controls.PictureButton();
             this.btnSearch = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
-            this.cboFilePath = new System.Windows.Forms.ComboBox();
-            this.cboFileName = new System.Windows.Forms.ComboBox();
-            this.cboSearchForText = new System.Windows.Forms.ComboBox();
+            this.cboFilePath = new AstroGrep.Windows.Controls.ComboboxEx();
+            this.cboFileName = new AstroGrep.Windows.Controls.ComboboxEx();
+            this.cboSearchForText = new AstroGrep.Windows.Controls.ComboboxEx();
             this.lblSearchText = new System.Windows.Forms.Label();
             this.lblFileTypes = new System.Windows.Forms.Label();
             this.lblSearchPath = new System.Windows.Forms.Label();

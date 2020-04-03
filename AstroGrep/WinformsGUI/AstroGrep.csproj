@@ -200,6 +200,9 @@
     <Compile Include="Windows\Controls\ColorButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Windows\Controls\ComboboxEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Windows\Controls\FilterValueType.cs">
       <SubType>UserControl</SubType>
     </Compile>
